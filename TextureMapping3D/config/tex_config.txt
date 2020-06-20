@@ -1,0 +1,2 @@
+brick brick/brick.jpg
+brick_1	brick/brick_1.jpg

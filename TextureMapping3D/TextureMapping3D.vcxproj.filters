@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{a111e950-a211-4017-a18d-6fdc569ab885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shader">
+      <UniqueIdentifier>{2f32edc5-5694-4f10-a96b-4a8f827e47e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{00fc334c-09da-4477-941d-1fe2ae8cbac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\brick">
+      <UniqueIdentifier>{887bf6d0-4700-499e-b486-d4203b30265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{313e6303-5274-4c4b-94a8-f6b57a8d3681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\config">
+      <UniqueIdentifier>{71242506-0ae5-43e8-87c4-dbaf02a79dcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glew32.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="glfw3.dll">
+      <Filter>Libraries</Filter>
+    </None>
+    <None Include="Vertex.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Frag.glsl">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brick\brick.jpg">
+      <Filter>Images\brick</Filter>
+    </Image>
+    <Image Include="brick\brick_1.jpg">
+      <Filter>Images\brick</Filter>
+    </Image>
+    <Image Include="C:\Users\DesertFoxee\Desktop\brick\brick_big.jpg">
+      <Filter>Images\brick</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="config\tex_config.txt">
+      <Filter>Assets\config</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
